@@ -21,7 +21,7 @@ export default function AboutMe() {
   return (
     <section className="sm:py-20 py-5" ref={ref}>
       <Heading heading="About Me" />
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-2 sm:mt-5 sm:py-10">
+      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 sm:mt-5 py-5 sm:py-10">
         <motion.div
           className="flex justify-center items-center overflow-hidden"
           initial={{ opacity: 0, x: -20 }} // Initial state

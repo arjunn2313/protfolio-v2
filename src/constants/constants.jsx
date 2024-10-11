@@ -9,14 +9,17 @@ export const navIcons = [
   {
     id: "linkedin",
     icons: <IoLogoLinkedin />,
+    link:"https://www.linkedin.com/in/arjun-k-s-86aa59222/"
   },
   {
     id: "github",
     icons: <FaGithub />,
+     link:"https://github.com/arjunn2313/"
   },
   {
     id: "instagram",
     icons: <FaInstagram />,
+     link:"https://www.instagram.com/ar_j__un/"
   },
 ];
 

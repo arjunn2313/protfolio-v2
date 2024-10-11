@@ -17,7 +17,9 @@ export default function Navbar() {
       </div>
       <ul className="flex gap-5 text-2xl">
          {navIcons.map((itm)=>(
-          <li key={itm.id}>{itm.icons}</li>
+          <a key={itm.id} href={itm.link}>
+          <li >{itm.icons}</li>
+          </a>
          ))}
       </ul>
       </section>
