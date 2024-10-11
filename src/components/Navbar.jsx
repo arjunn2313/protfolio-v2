@@ -5,7 +5,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <nav className="w-full py-4">
-      <section className="px-16 mx-auto   flex justify-between items-center">
+      <section className="px-5 sm:px-16 mx-auto   flex justify-between items-center">
       <div>
         <Image
         src="/logo.png"

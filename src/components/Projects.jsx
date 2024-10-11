@@ -1,10 +1,15 @@
  "use client";
 import React from "react";
 import Heading from "./Heading";
-import { popins } from "@/app/layout";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { project } from "@/constants/constants";
+import { Poppins } from "next/font/google";
+
+export const popins = Poppins({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 export default function Projects() {
   return (

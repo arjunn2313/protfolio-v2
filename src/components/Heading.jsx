@@ -1,5 +1,11 @@
-import { popins } from '@/app/layout'
+ 
+import { Poppins } from 'next/font/google';
 import React from 'react'
+
+export const popins = Poppins({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 export default function Heading({heading}) {
   return (

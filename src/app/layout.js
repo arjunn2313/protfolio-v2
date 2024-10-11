@@ -14,15 +14,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-
-// Google font
-export const popins = Poppins({
-  subsets: ["latin"],
-  weight: ["400"],
-});
+ 
+ 
 
 // Metadata for the page
- const metadata = {
+export const metadata = {
   title: "Arjun | Portfolio",
   description: "Created to showcase Arjun's skills and experience",
   icons: {

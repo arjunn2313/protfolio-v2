@@ -3,6 +3,12 @@ import React from 'react';
 import Heading from './Heading';
 import { technologies } from '@/constants/constants';
 import { delay, motion } from 'framer-motion';
+import { Poppins } from 'next/font/google';
+
+export const popins = Poppins({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 export default function Skills() {
   // Define a smoother jumping animation variant

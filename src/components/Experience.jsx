@@ -2,8 +2,14 @@
 import React from "react";
 import Heading from "./Heading";
 import { experience } from "@/constants/constants";
-import { popins } from "@/app/layout";
+ 
 import { motion } from "framer-motion";
+import { Poppins } from "next/font/google";
+
+export const popins = Poppins({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 export default function Experience() {
   return (

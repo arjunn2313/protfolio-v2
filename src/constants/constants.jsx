@@ -23,7 +23,7 @@ export const navIcons = [
 // tech
 export const technologies = [
   { name: "React", icon: <FaReact />, color: "#61dafb" },
-  { name: "Next.js", icon: <SiNextdotjs />, color: "#000000" },
+  { name: "Next.js", icon: <SiNextdotjs />, color: "#ffff" },
   { name: "Express", icon: <SiExpress />, color: "#6cc24a" },
   { name: "Node.js", icon: <FaNodeJs />, color: "#3c873a" },
   { name: "MongoDB", icon: <SiMongodb />, color: "#4db33d" },

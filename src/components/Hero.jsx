@@ -48,7 +48,7 @@ export default function Hero() {
             alt="logo"
             width={500}
             height={500}
-            className="w-60 h-60 sm:w-[90%] sm:h-[90%] rounded-3xl"
+            className="w-full h-full sm:w-[90%] sm:h-[90%] rounded-3xl"
           />
         </motion.div>
       </div>
