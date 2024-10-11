@@ -23,7 +23,7 @@ export default function AboutMe() {
       <Heading heading="About Me" />
       <div className="grid grid-cols-1 gap-10 md:grid-cols-2 sm:mt-5 py-5 sm:py-10">
         <motion.div
-          className="flex justify-center items-center overflow-hidden"
+          className="flex justify-center h-full items-center py-10 overflow-hidden"
           initial={{ opacity: 0, x: -20 }} // Initial state
           animate={isInView ? { opacity: 1, x: 0 } : {}} // Animate when in view
           transition={{ duration: 0.8, delay: 0.2 }}
