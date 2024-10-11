@@ -35,18 +35,20 @@ export const technologies = [
 export const experience = [
   {
     id: 1,
+    company: "Scope India",
     post: "Fullstack Developer - Intern",
-    period: "2023(Oct) - 2024(Jan)",
+    period: "2023(Feb) - 2024(Jan)",
     description:
-      "Led a team in developing web applications using JavaScript, React.js, Node.js, python. Implemented RESTful APIs and integrated with MySql databases. Collaborated with stakeholders to define project requirements and timelines.",
+      "Gained hands-on experience in MERN stack development. Worked on one major project using React.js, Node.js, Express, and MongoDB. Focused on building and integrating APIs, implementing front-end features, and managing databases.",
     tools: ["React JS", "Node JS", "MongoDB", "Express JS"],
   },
   {
     id: 2,
-    post: "Fullstack Developer - Intern",
-    period: "2023(Oct) - 2024(Jan)",
+    post: "Fullstack Developer",
+    company: "Spangles Infotech",
+    period: "2023(Jan) - Present",
     description:
-      "Led a team in developing web applications using JavaScript, React.js, Node.js, python. Implemented RESTful APIs and integrated with MySql databases. Collaborated with stakeholders to define project requirements and timelines.",
+      "As a full-stack developer, I have successfully led and completed several full-fledged projects. My role involves developing end-to-end web applications, integrating both front-end and back-end technologies, managing databases, and ensuring high performance across projects.",
     tools: ["React JS", "Node JS", "MongoDB", "Express JS"],
   },
 ];
@@ -60,7 +62,7 @@ export const project = [
     description:
       "An e-commerce platform for furniture shopping, featuring an admin panel for managing products, orders, and users. Built using modern technologies for a smooth user experience.",
     tools: ["React Js", "Node Js", " Express Js", "MongoDb"],
-    gitLink: "www.github.com",
+    gitLink: "https://github.com/arjunn2313/Furniro.git",
   },
   {
     id: 2,
@@ -69,7 +71,7 @@ export const project = [
     description:
       "A multi-level marketing (MLM) application where users can track their network and commissions, along with a robust admin panel for managing the system.",
     tools: ["React Js", "Node Js", "Express Js", "MongoDb"],
-    gitLink: "www.github.com",
+    gitLink: "https://github.com/arjunn2313/MLM-Admin-UI.git",
   },
   {
     id: 3,
@@ -78,6 +80,6 @@ export const project = [
     description:
       "A static website showcasing a real estate photographer's 360-degree virtual tour services. Users can explore properties through immersive virtual tours and learn more about the services offered.",
     tools: ["Next Js"],
-    gitLink: "www.github.com",
+    gitLink: "https://github.com/arjunn2313/Infinitevirtual-360.git",
   },
 ];

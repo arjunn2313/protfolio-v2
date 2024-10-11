@@ -40,7 +40,7 @@ export default function AboutMe() {
             I am a dedicated and versatile full stack developer with a passion
             for creating efficient and user-friendly web applications. I have
             worked with a variety of technologies, including React, Next.js,
-            Node.js, PostgreSQL. My journey in web development began with a deep
+            Node.js. My journey in web development began with a deep
             curiosity for how things work, and it has evolved into a career
             where I continuously strive to learn and adapt to new challenges. I
             thrive in collaborative environments and enjoy solving complex

@@ -16,11 +16,12 @@ export default function Experience() {
     <section className={`py-10 ${popins.className}`}>
       <Heading heading="Experience" />
 
-      <div className="grid px-5 sm:px-0 grid-cols-1 sm:grid-cols-2 gap-10 sm:py-16">
+      <div className="grid px-5 sm:px-0 grid-cols-1 sm:grid-cols-2 gap-10 py-6 sm:py-16">
         {experience.map((exp) => (
           <React.Fragment key={exp.id}>
-            <div className="flex justify-center items-center">
-              <h6>{exp.period}</h6>
+            <div className="flex flex-col justify-center items-center">
+              <h2 className="text-xl font-semibold">{exp.company}</h2>
+              <h6 className="text-gray-200">{exp.period}</h6>
             </div>
             <motion.div
               className="w-full space-y-4"
@@ -29,10 +30,10 @@ export default function Experience() {
               transition={{ duration: 0.5 }} // Transition properties
             >
               <h2 className="text-xl">{exp.post}</h2>
-              <p className="sm:w-3/4 leading-relaxed">{exp.description}</p>
+              <p className="sm:w-3/4 leading-relaxed text-gray-100">{exp.description}</p>
               <div className="flex flex-wrap gap-5">
                 {exp.tools.map((tool) => (
-                  <span key={tool} className="border w-fit text-sm py-1 px-3 rounded-lg">
+                  <span key={tool} className="border text-purple-400 bg-gray-800 w-fit text-sm py-1 px-3 rounded-lg">
                     {tool}
                   </span>
                 ))}

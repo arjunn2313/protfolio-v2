@@ -27,7 +27,7 @@ export default function Skills() {
   return (
     <section className="sm:py-20 py-5 ">
       <Heading heading="Technologies" />
-      <ul className="flex py-10 sm:py-20 justify-center gap-8 flex-wrap space-x-4">
+      <ul className="flex py-10 sm:py-20 justify-center gap-8 flex-wrap sm:space-x-4">
         {technologies.map((tech, index) => (
           <motion.li
             key={index}
