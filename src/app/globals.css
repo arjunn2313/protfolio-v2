@@ -7,3 +7,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body{
+  background: linear-gradient(to right, #1f193b, #000000);
+  color: #fff;
+
+}
