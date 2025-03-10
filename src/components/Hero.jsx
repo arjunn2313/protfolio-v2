@@ -4,6 +4,7 @@ import Image from "next/image";
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
 import { Poppins } from "next/font/google";
+import ResumeDownload from "./ResumeDownload";
 
 // Google font
 export const popins = Poppins({
@@ -36,6 +37,9 @@ export default function Hero() {
             create innovative solutions that drive business growth and deliver
             exceptional user experiences.
           </p>
+        
+          <ResumeDownload/>
+        
         </motion.div>
         <motion.div
           className="flex justify-center items-start"

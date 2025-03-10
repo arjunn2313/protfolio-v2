@@ -85,4 +85,31 @@ export const project = [
     tools: ["Next Js"],
     gitLink: "https://github.com/arjunn2313/Infinitevirtual-360.git",
   },
+  {
+    id: 4,
+    name: "General Trading",  
+    image: "/generaltrading.png",
+    description:
+      "A sleek and responsive general trading website built with Next.js and Tailwind CSS, featuring a dynamic home page, an informative about section, a detailed services page, and a contact form—designed for seamless navigation and an engaging user experience.",
+    tools: ["Next Js"],
+    gitLink: "https://github.com/arjunn2313/general-trading.git",
+  },
+  {
+    id: 5,
+    name: "Megatron Cars Admin",  
+    image: "/megatron.png",
+    description:
+      "Megatron Cars admin panel, built with React.js, Node.js, Express.js, and PostgreSQL, enables seamless management of car listings with full CRUD functionality, a dedicated Hot Deals section for special offers, and a responsive dashboard for efficient dealership operations. ",
+      tools: ["React Js", "Node Js", "Express Js", "PSQL"],
+    gitLink: "https://github.com/arjunn2313/general-trading.git",
+  },
+  {
+    id: 6,
+    name: "Church Management System",  
+    image: "/church.png",
+    description:
+      "A powerful Church Management System built with React.js, Node.js, Express.js, and PostgreSQL, allowing admins to manage members, families, pastors, offerings, and expenses efficiently. It features role-based access, event scheduling, and financial tracking to streamline church administration and enhance community engagement.",
+      tools: ["React Js", "Node Js", "Express Js", "MongoDb"],
+    gitLink: "https://github.com/arjunn2313/general-trading.git",
+  },
 ];

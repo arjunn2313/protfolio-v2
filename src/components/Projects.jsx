@@ -43,7 +43,7 @@ export default function Projects() {
               alt={work.name} // Changed alt text to be more descriptive
               width={500}
               height={500}
-              className="w-full h-52 object-cover"
+              className="w-full h-52 object-contain"
             />
             <h2 className="text-xl sm:text-2xl font-bold mt-4">{work.name}</h2>
             <p className="mt-2 text-md">{work.description}</p>
